@@ -7,7 +7,7 @@ name: My-GitHabActions-Basics
 on:
   push:
     branches:
-      - master
+      - main
 
 jobs: 
   my_testing:
