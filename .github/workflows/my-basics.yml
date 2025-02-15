@@ -23,7 +23,7 @@ jobs:
     - name: Execure few commands
       run : |
         echo "Hello Message1"
-        echo "Hello Message2"
+        echo "Hello Message2.0"
         echo "Application name: ${{ env.APPLICATION_NAME }}"
 
     - name: List current folder
@@ -40,7 +40,7 @@ jobs:
     needs: [my_testing]
     env:
       VAR1 : "This is Job Lebel Variable1"
-      VAR2 : "This is Job Lebel Variable2"
+      VAR2 : "This is Job Lebel Variable2.0"
 
     steps:
     - name: Print Hello Message in Deploy
